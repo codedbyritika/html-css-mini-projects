@@ -1,6 +1,8 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 html,body{
     width: 100%;
@@ -10,19 +12,93 @@ html,body{
 #main{
     height: 100%;
     width: 100%;
-    background-color: pink;
+    
 }
 #header{
 width: 100%;
 height: 10%;
-background-color: rgb(0, 255, 191);
+
 position: fixed;
+display: flex;
+align-items: center;
+
 }
 
+#logo{
+    
+    height: 70%;
+    margin: 10px;
+
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texts{
+    color: #032d60;
+    margin: 16px;
+    display: flex;
+    
+}
+.texts:hover{
+    color: #0b5cab;
+}
+
+.texts p{
+    font-size: large;
+    font-weight: 500;
+}
+
+#contact{
+    margin-left: 150px;
+}
+
+#contact p:hover{
+    color: #0b5cab;
+}
+
+.icon{
+    margin-left:30px;
+    color: #032d60;
+}
+
+.icon:hover{
+    padding: 10px;
+    border-radius: 50%;
+    background-color:lightblue ;
+}
+
+
+
+#login{
+    color: #032d60;
+    display: flex;
+    margin: 20px;
+}
+.icon:hover{
+    color:#0b5cab ;
+}
+#login:hover{
+    background-color: skyblue;
+    padding: 6px;
+    border-radius: 20px;
+    color:#032d60 ;
+}
+
+#try{
+    margin-left: 30px;
+    background-color: #0b7e46;
+    border-radius: 5px;
+}
+#try:hover{
+    background-color: rgb(3, 87, 3);
+}
 #fakeheader{
  width: 100%;
 height: 10%;
-background-color:yellow;
+
 }
 
 #page1{
