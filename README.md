@@ -7,3 +7,4 @@ A collection of mini projects built using HTML and CSS to improve my frontend sk
 1. Squares Hover Effect
 2. Shinchan Cards Stack
 3. Salesforce Landing Page UI
+4. photography sidebar UI
