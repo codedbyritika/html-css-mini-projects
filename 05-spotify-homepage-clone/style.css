@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Montserrat", sans-serif;
+    
+   
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+     color: white;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sidebar{
+    background-color: red;
+    width: 300px;
+    border-radius: 1rem;  /* 1rem= 16px*/
+    background-color: #121212;
+}
+.main-content{
+    background-color: blue;
+    /*take bachi hui sari jagah*/
+    flex: 1;
+     border-radius: 1rem;
+     overflow: auto;
+     background-color: #121212;
+}
+.music-player{
+    background-color: green;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+}
