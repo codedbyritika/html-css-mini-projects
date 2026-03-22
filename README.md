@@ -8,3 +8,4 @@ A collection of mini projects built using HTML and CSS to improve my frontend sk
 2. Shinchan Cards Stack
 3. Salesforce Landing Page UI
 4. photography sidebar UI
+5. Spotify Homepage Clone
