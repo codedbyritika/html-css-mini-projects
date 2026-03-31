@@ -1,65 +1,67 @@
-*{
+* {
     margin: 0;
     padding: 0;
-   
-    
-
-    
+    color: white;
 }
 
-.main{
-    height: 100vh;
-    width: 100%;
-     background-image: url("bgf.jpg");
-     background-size: cover;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("bgf.jpg");
+    background-size: cover;
     background-position: center;
-    
-    
+
 }
 
-.navbar{
-    background-color: yellow;
+.main {
+    height: 100vh;
+}
+
+.navbar {
     top: 0;
-    position: sticky;
+    position: fixed;
     width: 100%;
-    height: 5rem;
-    background-color:black;
-   display: flex;
-   justify-content: space-between;
-    top: 0;
-    position: sticky;
+    height: 5.6rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
 }
 
-.logo{
+.logo {
     width: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
     padding-left: 25px;
     padding-top: 15px;
- 
-   
+
+
 }
-.logo p{
+
+.logo p {
     color: white;
     font-size: 30px;
     padding: 4px;
     margin-left: 15px;
     margin-bottom: 20px;
 }
-.logo img{
+
+.logo img {
     height: 4rem;
     background-size: auto;
 }
-.nav-item{
-   
+
+.nav-item {
+
     width: 65%;
-   padding: 5px;
-    
-   
+    padding: 5px;
+
+
 }
-.nav-item ul{
+
+.nav-item ul {
     list-style: none;
     padding-top: 20px;
     display: flex;
@@ -68,25 +70,29 @@
 }
 
 
-.nav-item li a{
-color: rgba(255,255,255, 0.8);
+.nav-item li a {
+    color: rgba(255, 255, 255, 0.8);
 
     font-size: 22px;
     text-decoration: none;
+    transition: 0.3s;
 }
-.nav-item li a:hover{
+
+.nav-item li a:hover {
     color: white;
-   
-   
+
+
 
 }
-.control{
+
+.control {
     width: 25%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.btn{
+
+.btn {
     height: 2.5rem;
     width: 8rem;
     color: white;
@@ -96,10 +102,57 @@ color: rgba(255,255,255, 0.8);
     font-weight: 600;
     font-size: 15px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: white;
     color: black;
     transform: scale(1.1);
-     transition: transform 0.3s ease;
-  
+    transition: transform 0.3s ease;
+
+}
+
+.container {
+    border: 2px solid white;
+    margin: 120px 80px;
+    padding: 45px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.container h1 {
+    text-align: center;
+    padding: 2px;
+    margin: 5px;
+}
+
+.form-group input {
+    color: black;
+    border: none;
+    outline: none;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 5px;
+    width: 90%;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.form-group input:hover {
+    font-weight: bold;
+    box-shadow: 2px 2px 5px white;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.form-btn {
+    display: block;
+    margin: 15px auto;
+    width: 90%;
+}
+
+.secondpage {
+    background-color: black;
 }
